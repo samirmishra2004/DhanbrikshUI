@@ -1,13 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Button } from "reactstrap";
+import Header from "./components/Header.js";
+import Footer1 from "./components/Footer1.js";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div>
+      <Header />
+      <div id="content" />
+      <Footer1 />
     </div>
   );
 }
