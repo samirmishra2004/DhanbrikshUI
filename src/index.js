@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div id="content" />
+      <div id="content" style={{width:'100%',height:'70vh',verticleAlign:'middle', textAlign:'center'}} > work in progess!... </div>
       <Footer1 />
     </div>
   );
